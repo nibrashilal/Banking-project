@@ -14,7 +14,7 @@ for score in students_scores:
 
 average_score = total_score / len(students_scores)
 
-if average_score >= 75:
+if average_score >= 80:
     print("Overall performance is Excellent")
 else:
     print("Overall performance needs improvement")
