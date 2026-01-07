@@ -3,8 +3,10 @@
 students_scores = [85, 72, 40, 90, 60]
 total_score = 0
 passed_students = 0
+total_students = 0 
 
 for score in students_scores:
+    total_students += 1
     total_score += score
     
     if score >= 50:
